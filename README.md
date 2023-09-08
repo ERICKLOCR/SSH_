@@ -86,6 +86,49 @@ En esta parte debemos asegurarnos que nos dio la nueva IP que nosotros le asigna
 ### En la Jetson Nano
 
 
+<p align='center'>
+    <img src=./IMÁGENES/A01.png alt="drawing" width="600"/>
+</p>
+
+
+
+
+<p align='center'>
+    <img src=./IMÁGENES/A02.png alt="drawing" width="600"/>
+</p>
+
+
+
+
+
+
+<p align='center'>
+    <img src=./IMÁGENES/A03.png alt="drawing" width="600"/>
+</p>
+
+
+
+
+<p align='center'>
+    <img src=./IMÁGENES/A04.png alt="drawing" width="600"/>
+</p>
+
+
+<p align='center'>
+    <img src=./IMÁGENES/A05.png alt="drawing" width="600"/>
+</p>
+
+
+<p align='center'>
+    <img src=./IMÁGENES/A06.png alt="drawing" width="600"/>
+</p>
+
+
+<p align='center'>
+    <img src=./IMÁGENES/A07.png alt="drawing" width="600"/>
+</p>
+
+
 
 
 
