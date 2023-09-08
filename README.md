@@ -135,7 +135,7 @@ Dentro de la carpeta hacer un clic y dar en abrir en terminal
     <img src=./IMÁGENES/A08.png alt="drawing" width="500"/>
 </p>
 
-Nos aparece la venta de la terminal y ejecutamos el siguiente comando 
+Nos aparece la ventana de la terminal y ejecutamos el siguiente comando 
 
  ```
 sudo gedit hosts
@@ -169,7 +169,7 @@ y se copian las siguientes líneas al archivo
 
 ## Prueba de conexión  
 
-Ir a la teminal y ejecutar 
+Ir a la teminal de la computadora y ejecutar 
 
 ```
 export ROS_MASTER_URI=http://localhost:11311
@@ -182,6 +182,16 @@ export ROS_MASTER_URI=http://192.168.43.178:11311
 export ROS_IP=192.168.63.188
 
 ```
+
+
+
+<p align='center'>
+    <img src=./IMÁGENES/W6.png alt="drawing" width="500"/>
+</p>
+
+<p align='center'>
+    <img src=./IMÁGENES/W7.png alt="drawing" width="500"/>
+</p>
 
 ### Solución al problema de transferencia de datos
 
