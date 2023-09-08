@@ -189,13 +189,19 @@ ssh robotica@192.168.43.178
     <img src=./IMÁGENES/W6.png alt="drawing" width="500"/>
 </p>
 
+Finalmente en la línea de comandos paso de la computadora a nombre de la Jetson Nano a lo cual ya estamos el sistema de la Jetson
+
+Para ver los tópicos que se tienen en la Jetson se ejecuta
+
+```
+rostopic list
+```
+
 <p align='center'>
     <img src=./IMÁGENES/W7.png alt="drawing" width="500"/>
 </p>
+Nos mostrara la lista de topicos indicandonos que la comunicacion por SSH se estaclecio correctamente.
 
-### Solución al problema de transferencia de datos
-
-rostopic list 
 
 
 
