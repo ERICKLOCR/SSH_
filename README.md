@@ -33,14 +33,28 @@ Para poder crear la conexión entre la computadora y la JETSON tenemos que tener
 </p>
 
 
+
 Ir a la terminal y ejecutar  
 ```
 ifconfig  
 ```
 <p align='center'>
     <img src=./IMÁGENES/W1.png alt="drawing" width="600"/>
-    <img src=./IMÁGENES/W1.png alt="drawing" width="600"/>
+    <img src=./IMÁGENES/W1.png alt="dra" width="600"/>
 </p>
+
+
+<img width="200" height="100" alt="Medium" src="img src=./IMÁGENES/W1.png" >
+<img width="200" height="100" alt="Medium" src="img src=./IMÁGENES/W1.png" >
+
+
+
+
+
+
+
+
+
 
 En esta ventana nos mostrara la ip que se tiene asignada al dispositivo y la mascara 
 
