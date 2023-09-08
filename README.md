@@ -234,9 +234,9 @@ sudo gedit hosts
    Una vez despliega un archivo se configura de la manera siguiente. 
 
 ```
-export ROS_MASTER_URI=http://TurtlebootIP:11311
- export ROS_IP=192.168.43.192 
-ssh robotica@hostNmae(ipconfig)
+export ROS_MASTER_URI=http://TurtleBotIP:11311
+ export ROS_IP=CompuIP 
+ssh robotica@TurtleBotIP
 ```
 
 ```
