@@ -90,23 +90,14 @@ En esta parte debemos asegurarnos que nos dio la nueva IP que nosotros le asigna
 
 
 <p align='center'>
-    <img src=./IMÁGENES/A01.png alt="drawing" width="600"/>
+    <img src=./IMÁGENES/A01.png alt="drawing" width="500"/>
 </p>
 
 
 
 
 <p align='center'>
-    <img src=./IMÁGENES/A02.png alt="drawing" width="600"/>
-</p>
-
-
-
-
-
-
-<p align='center'>
-    <img src=./IMÁGENES/A03.png alt="drawing" width="600"/>
+    <img src=./IMÁGENES/A02.png alt="drawing" width="500"/>
 </p>
 
 
@@ -115,23 +106,32 @@ En esta parte debemos asegurarnos que nos dio la nueva IP que nosotros le asigna
 
 
 <p align='center'>
-    <img src=./IMÁGENES/A06.png alt="drawing" width="600"/>
-</p>
-
-
-<p align='center'>
-    <img src=./IMÁGENES/A07.png alt="drawing" width="600"/>
+    <img src=./IMÁGENES/A03.png alt="drawing" width="500"/>
 </p>
 
 
 
+
+
+
 <p align='center'>
-    <img src=./IMÁGENES/A08.png alt="drawing" width="600"/>
+    <img src=./IMÁGENES/A06.png alt="drawing" width="500"/>
 </p>
 
 
 <p align='center'>
-    <img src=./IMÁGENES/A09.png alt="drawing" width="600"/>
+    <img src=./IMÁGENES/A07.png alt="drawing" width="500"/>
+</p>
+
+
+
+<p align='center'>
+    <img src=./IMÁGENES/A08.png alt="drawing" width="500"/>
+</p>
+
+
+<p align='center'>
+    <img src=./IMÁGENES/A09.png alt="drawing" width="500"/>
 </p>
 
 
