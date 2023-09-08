@@ -10,7 +10,7 @@
     1. [En la computadora](#En-la-computadora)
     2. [En la Jetson Nano](#En-la-Jetson-Nano)
 3. [Prueba de conexión](#Prueba-de-conexión)
-    1. [Solución al problema de transferencia de datos](#Solución-al-problema-de-transferencia-de-datos) 
+    
 
        
 
