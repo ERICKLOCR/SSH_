@@ -137,9 +137,9 @@ Dentro de la carpeta hacer un clic y dar en abrir en terminal
 
 Nos aparece la venta de la terminal y ejecutamos el siguiente comando 
 
-´´´´
+ ```
 sudo gedit hosts
-´´´´
+```
 
 
 <p align='center'>
