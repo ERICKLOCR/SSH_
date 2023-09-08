@@ -109,14 +109,6 @@ En esta parte debemos asegurarnos que nos dio la nueva IP que nosotros le asigna
 
 
 
-<p align='center'>
-    <img src=./IMÁGENES/A04.png alt="drawing" width="600"/>
-</p>
-
-
-<p align='center'>
-    <img src=./IMÁGENES/A05.png alt="drawing" width="600"/>
-</p>
 
 
 <p align='center'>
@@ -129,6 +121,15 @@ En esta parte debemos asegurarnos que nos dio la nueva IP que nosotros le asigna
 </p>
 
 
+
+<p align='center'>
+    <img src=./IMÁGENES/A08.png alt="drawing" width="600"/>
+</p>
+
+
+<p align='center'>
+    <img src=./IMÁGENES/A09.png alt="drawing" width="600"/>
+</p>
 
 
 
