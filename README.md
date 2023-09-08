@@ -116,25 +116,30 @@ Pulsamos en IPV4 y agregamos los siguientes datos
     <img src=./IMÁGENES/A03.png alt="drawing" width="500"/>
 </p>
 
-
-
-
-
+Nos dirigimos archivos y pulsar en otras direcciones
 
 <p align='center'>
     <img src=./IMÁGENES/A06.png alt="drawing" width="500"/>
 </p>
 
+Damos doble clic en etc
 
 <p align='center'>
     <img src=./IMÁGENES/A07.png alt="drawing" width="500"/>
 </p>
 
+Dentro de la carpeta hacer un clic y dar en abrir en terminal
 
 
 <p align='center'>
     <img src=./IMÁGENES/A08.png alt="drawing" width="500"/>
 </p>
+
+Nos aparece la venta de la terminal y ejecutamos el siguiente comando 
+
+´´´´
+sudo gedit hosts
+´´´´
 
 
 <p align='center'>
