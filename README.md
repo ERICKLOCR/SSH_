@@ -146,6 +146,12 @@ sudo gedit hosts
     <img src=./IMÁGENES/A09.png alt="drawing" width="500"/>
 </p>
 
+y se copian las siguientes líneas al archivo
+
+
+ ```
+
+ ```
 
 
 
