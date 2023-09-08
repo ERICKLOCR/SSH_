@@ -88,11 +88,13 @@ En esta parte debemos asegurarnos que nos dio la nueva IP que nosotros le asigna
 
 ### En la Jetson Nano
 
+Seleccionar la red a conectarse que será la misma a la que se conectó con la computadora.
 
 <p align='center'>
     <img src=./IMÁGENES/A01.png alt="drawing" width="500"/>
 </p>
 
+Nos dirigimos a editar la conexión y aparecerá una ventana similar.
 
 
 
@@ -100,8 +102,13 @@ En esta parte debemos asegurarnos que nos dio la nueva IP que nosotros le asigna
     <img src=./IMÁGENES/A02.png alt="drawing" width="500"/>
 </p>
 
+Pulsamos en IPV4 y agregamos los siguientes datos
 
+- En dirección IP colocar la IP a asignarle a la Jetson Nano.
 
+- En máscara de red colocar la máscara que anteriormente nos dio en la terminal.
+
+- En puerta de enlace colocar lo mismo que la dirección IP
 
 
 
