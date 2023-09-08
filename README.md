@@ -38,8 +38,8 @@ Ir a la terminal y ejecutar
 ifconfig  
 ```
 <p align='center'>
-    <img src=./IMÁGENES/W2.png alt="drawing" width="600"/>
-        <img src=./IMÁGENES/W3.png alt="drawing" width="600"/>
+    <img src=./IMÁGENES/W1.png alt="drawing" width="600"/>
+    <img src=./IMÁGENES/W1.png alt="drawing" width="600"/>
 </p>
 
 En esta ventana nos mostrara la ip que se tiene asignada al dispositivo y la mascara 
