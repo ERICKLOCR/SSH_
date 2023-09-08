@@ -39,20 +39,8 @@ Ir a la terminal y ejecutar
 ifconfig  
 ```
 <p align='center'>
-    <img src=./IMÁGENES/W1.png alt="drawing" width="600"/>
-    <img src=./IMÁGENES/W1.png alt="dra" width="600"/>
+    <img src=./IMÁGENES/W2.png alt="drawing" width="600"/>
 </p>
-
-
-<img width="200" height="100" alt="Medium" src="img src=./IMÁGENES/W1.png" >
-<img width="200" height="100" alt="Medium" src="img src=./IMÁGENES/W1.png" >
-
-
-
-
-
-
-
 
 
 
