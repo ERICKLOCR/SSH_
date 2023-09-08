@@ -1,14 +1,27 @@
 
 
-# Configuración de conexión remota mediante  SSH entre JETSON y computadora
+# Configuración de conexión remota mediante  SSH entre Jetson Nano y computadora
 
-Comentarios generales
+
+## Tabla de Contenidos
+
+1. [Comentarios generales](#Comentarios-generales)
+2. [Configuración de la IP estática](#Configuración-de-la-IP-estática)
+    1. [En la computadora](#En-la-computadora)
+    2. [En la Jetson Nano](#En-la-Jetson-Nano)
+3. [Prueba de conexión](#Prueba-de-conexión)
+    1. [Solución al problema de transferencia de datos](#Solución-al-problema-de-transferencia-de-datos) 
+
+       
+
+## Comentarios generales
 Para poder crear la conexión entre la computadora y la JETSON tenemos que tener claro que la IP cambian si es que no se tiene configurada una IP estática a lo que no no deja conectar en la siguiente conexión que se desea establecer. Primeramente se configuraran una IP estática tanto para la JETSON como para la computadora.
     
 
+## Configuración de la IP estática 
 
+### En la computadora 
 
-## Configuración de la IP estática de la computadora 
  
 **Seleccionar la red** a la que se desea conectar
 (Si no te deja conectar a la que deseas por que tienes varias redes confirmadas entrar a la configuración de esa red y colocar que no se conecte de manera automática para que te permita ingresar de manera automática a la que deseas )
@@ -70,9 +83,26 @@ En esta parte debemos asegurarnos que nos dio la nueva IP que nosotros le asigna
     <img src=./IMÁGENES/W5.png alt="drawing" width="600"/>
 </p>
 
+### En la Jetson Nano
 
 
-# Prueba de conexión  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+## Prueba de conexión  
 
 Ir a la teminal y ejecutar 
 
@@ -88,7 +118,7 @@ export ROS_IP=192.168.63.188
 
 ```
 
-
+### Solución al problema de transferencia de datos
 
 rostopic list 
 
