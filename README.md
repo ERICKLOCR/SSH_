@@ -172,15 +172,15 @@ y se copian las siguientes líneas al archivo
 Ir a la teminal de la computadora y ejecutar 
 
 ```
-export ROS_MASTER_URI=http://localhost:11311
-export ROS_IP=localhost
+export ROS_MASTER_URI=http://TurtleBotIP:11311
+export ROS_IP=CompuIP 
+ssh robotica@TurtleBotIP
 ```
 
-En nuestro caso ejecutamos
 ```
 export ROS_MASTER_URI=http://192.168.43.178:11311
-export ROS_IP=192.168.63.188
-
+ export ROS_IP=192.168.43.188
+ssh robotica@192.168.43.178
 ```
 
 
@@ -200,47 +200,3 @@ rostopic list
 
 
 
-
-## 1 Configuraciones en la JETSON
-#--------------------------------------------------------------------------
-#....................
-
- Configurar el host
-   En la terminal ejecutar
-
-```
-sudo gedit hosts
-```
-   Una vez despliega un archivo se configura de la manera siguiente. 
-```
-export ROS_MASTER_URI=http://localhost:11311
-export ROS_IP=localhost
-export ROS_HOSTNAME=TurtlebootIP o TurtlebootHOSNAME
-```
-```
-export ROS_MASTER_URI=http://192.168.43.178:11311
-export ROS_IP=192.168.43.178
-export ROS_HOSTNAME=192.168.43.178
-```
-
-## 2 Configuraciones en la Computadota 
-
-<p align='center'>
-    <img src=./IMÁGENES/W1.png alt="drawing" width="600"/>
-</p>
-```
-sudo gedit hosts
-```
-   Una vez despliega un archivo se configura de la manera siguiente. 
-
-```
-export ROS_MASTER_URI=http://TurtleBotIP:11311
- export ROS_IP=CompuIP 
-ssh robotica@TurtleBotIP
-```
-
-```
-export ROS_MASTER_URI=http://192.168.43.178:11311
- export ROS_IP=192.168.43.192 
-ssh robotica@192.168.43.178
-```
