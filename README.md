@@ -200,7 +200,8 @@ rostopic list
 <p align='center'>
     <img src=./IMÁGENES/W7.png alt="drawing" width="500"/>
 </p>
-Nos mostrara la lista de topicos indicandonos que la comunicacion por SSH se estaclecio correctamente.
+
+Nos mostrará la lista de tópicos indicándonos que la comunicación por SSH se estableció correctamente.
 
 
 
