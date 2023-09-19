@@ -116,6 +116,57 @@ Pulsamos en IPV4 y agregamos los siguientes datos
     <img src=./IMÁGENES/A03.png alt="drawing" width="500"/>
 </p>
 
+
+## Prueba de conexión  
+
+Ir a la teminal de la computadora y ejecutar 
+
+```
+export ROS_MASTER_URI=http://TurtleBotIP:11311
+export ROS_IP=CompuIP 
+ssh robotica@TurtleBotIP
+```
+
+```
+export ROS_MASTER_URI=http://192.168.43.178:11311
+ export ROS_IP=192.168.43.188
+ssh robotica@192.168.43.178
+```
+
+
+
+<p align='center'>
+    <img src=./IMÁGENES/W6.png alt="drawing" width="500"/>
+</p>
+
+Finalmente en la línea de comandos paso de la computadora a nombre de la Jetson Nano a lo cual ya estamos el sistema de la Jetson
+
+Para ver los tópicos que se tienen en la Jetson se ejecuta
+
+```
+rostopic list
+```
+
+<p align='center'>
+    <img src=./IMÁGENES/W7.png alt="drawing" width="500"/>
+</p>
+
+Nos mostrará la lista de tópicos indicándonos que la comunicación por SSH se estableció correctamente.
+
+Ahora solo tenemos que veriicar que la conexión sea bidireccional a lo que tenemos que enviar y recibir datos 
+
+```
+rostopic echo /odom -n1
+```
+Si se ejecutó correctamente entonces puedes recibir datos.
+
+```
+rostopic pub <topic_name> <message_type> <value>
+```
+Si se ejecutó correctamente entonces puedes enviar datos.
+
+Si tienes algún problema con el envío o recepción de datos ejecuta los siguientes pasos y vuelve a ejecutar un rostopic echo y un rostopic pub para verificar la conexión bidireccional.
+
 Nos dirigimos archivos y pulsar en otras direcciones
 
 <p align='center'>
@@ -157,55 +208,6 @@ y se copian las siguientes líneas al archivo
 127.0.1.1 karla-Legion-5-15ACH6
  ```
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-## Prueba de conexión  
-
-Ir a la teminal de la computadora y ejecutar 
-
-```
-export ROS_MASTER_URI=http://TurtleBotIP:11311
-export ROS_IP=CompuIP 
-ssh robotica@TurtleBotIP
-```
-
-```
-export ROS_MASTER_URI=http://192.168.43.178:11311
- export ROS_IP=192.168.43.188
-ssh robotica@192.168.43.178
-```
-
-
-
-<p align='center'>
-    <img src=./IMÁGENES/W6.png alt="drawing" width="500"/>
-</p>
-
-Finalmente en la línea de comandos paso de la computadora a nombre de la Jetson Nano a lo cual ya estamos el sistema de la Jetson
-
-Para ver los tópicos que se tienen en la Jetson se ejecuta
-
-```
-rostopic list
-```
-
-<p align='center'>
-    <img src=./IMÁGENES/W7.png alt="drawing" width="500"/>
-</p>
-
-Nos mostrará la lista de tópicos indicándonos que la comunicación por SSH se estableció correctamente.
 
 
 Como tenemos el control de la Jetson Nano podemos entrar y ver la carpetas y ejecutar comandos pro el momento apagamos la conexión por lo cual apagaremos la jetson y  ejecutando en terminal
