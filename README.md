@@ -150,7 +150,11 @@ y se copian las siguientes líneas al archivo
 
 
  ```
+192.168.43.178 jetson
+192.168.43.192 karla
 
+127.0.0.1 localhost
+127.0.1.1 karla-Legion-5-15ACH6
  ```
 
 
