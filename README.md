@@ -210,4 +210,4 @@ Como tenemos el control de la Jetson Nano podemos entrar y ver la carpetas y eje
 sudo poweroff
 ```
 
-Podemos observar que la jetson se apaga y eso fue la prueba de conexión mediante ssh entre la cputadora y la jetson.
+Podemos observar que la jetson se apaga y eso fue la prueba de conexión mediante ssh entre la computadora y la jetson.
