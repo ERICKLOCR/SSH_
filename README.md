@@ -153,7 +153,7 @@ rostopic list
 
 Nos mostrará la lista de tópicos indicándonos que la comunicación por SSH se estableció correctamente.
 
-Ahora solo tenemos que veriicar que la conexión sea bidireccional a lo que tenemos que enviar y recibir datos 
+Ahora solo tenemos que verificar que la conexión sea bidireccional a lo que tenemos que enviar y recibir datos 
 
 ```
 rostopic echo /odom -n1
