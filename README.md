@@ -204,6 +204,10 @@ rostopic list
 Nos mostrará la lista de tópicos indicándonos que la comunicación por SSH se estableció correctamente.
 
 
+Como tenemos el control de la Jetson Nano podemos entrar y ver la carpetas y ejecutar comandos pro el momento apagamos la conexión por lo cual apagaremos la jetson y  ejecutando en terminal
 
+```
+sudo poweroff
+```
 
-
+Podemos observar que la jetson se apaga y eso fue la prueba de conexión mediante ssh entre la cputadora y la jetson.
